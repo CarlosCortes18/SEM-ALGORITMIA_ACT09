@@ -208,13 +208,6 @@ void listaNeurona::recuperar(string ruta)
             getline(archivo,red);
             getline(archivo,green);
             getline(archivo,blue);
-            std::cout << "ID: " << id << std::endl;
-            std::cout << "Voltaje: " << voltaje << std::endl;
-            std::cout << "Posicion X: " << posX << std::endl;
-            std::cout << "Psocion Y: " << posY << std::endl;
-            std::cout << "Red: " << red << std::endl;
-            std::cout << "Green: " << green << std::endl;
-            std::cout << "Blue: " << blue << std::endl;
             Neurona *temp = new Neurona();
             int newInt = stoi(id);
             std::stringstream out;
